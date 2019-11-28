@@ -1,0 +1,12 @@
+﻿<Window x:Class="wpf_hw_drawing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf_hw_drawing"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Polyline Points="110 250 110 160 200 100 500 100 600 170 600 250 500 300 400 300 400 400 400 300 280 400 400 -16000" Stroke="Black"/>
+    </Grid>
+</Window>
